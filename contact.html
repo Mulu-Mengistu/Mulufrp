@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Mulufrp</title>
+    <meta name="description" content="Contact page for Mulufrp. Reach out to us for support or inquiries.">
+    <meta name="keywords" content="Contact, Support, Inquiries, Mulufrp">
+    <meta name="author" content="Mulufrp">
+    <link rel="stylesheet" href="styles.css"> <!-- Include your existing CSS file -->
+</head>
+<body>
+    <header>
+        <img src="file:///F:/Coding/image/logo.png" alt="Mulufrp Logo" class="logo">
+        <h1>Mulufrp</h1>
+        <p>Contact Us</p>
+    </header>
+    
+    <main>
+        <section id="contact-us">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need support, please feel free to reach out to us using the form below or through our contact information.</p>
+            
+            <form action="send-message.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+            
+            <h3>Our Contact Information</h3>
+            <p><strong>Email:</strong> <a href="mailto:mulumengistu1@gmail.com">mulumengistu1@gmail.com</a></p>
+            <p><strong>Address:</strong> Ethiopian Road, [City], [Country]</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mulufrp. All Rights Reserved.</p>
+        <p><a href="index.html">Home</a> | <a href="privacy-policy.html">Privacy Policy</a> | <a href="contact.html">Contact Us</a></p>
+    </footer>
+</body>
+</html>
